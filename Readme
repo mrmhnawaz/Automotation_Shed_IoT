@@ -1,0 +1,17 @@
+# Project Title: IoT Based Smart Shed Automation for Crop Protection
+
+## Technical Stack:
+- Arduino MEGA
+- ESP32 Devkit
+- Blynk IoT Cloud
+- Motor Drivers
+- DC Motors
+- Temperature & Rain Drop Sensor
+- C++
+
+## Description:
+Designed and implemented an Arduino Mega-based automation system to control shed mechanisms, 
+utilizing DC motors for precise opening and closing actions in response to environmental triggers like high temperature and Raindrops.
+Established seamless communication with the Blynk IoT cloud platform using ESP32 DevKit, 
+facilitating real-time data transfer and remote monitoring of environmental conditions. 
+This integration enables timely alerts and remote management of shed operations, enhancing crop protection and management efficiency.
