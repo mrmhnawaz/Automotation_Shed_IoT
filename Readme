@@ -1,17 +1,29 @@
-# Project Title: IoT Based Smart Shed Automation for Crop Protection
+IoT Based Smart Shed Automation for Crop Protection
+Overview:
+This project implements an IoT-based smart shed automation system designed to enhance crop protection and management efficiency. The system utilizes Arduino Mega and ESP32 Devkit microcontrollers, along with various sensors and actuators, to automate shed mechanisms in response to environmental triggers such as temperature and rain.
 
-## Technical Stack:
-- Arduino MEGA
-- ESP32 Devkit
-- Blynk IoT Cloud
-- Motor Drivers
-- DC Motors
-- Temperature & Rain Drop Sensor
-- C++
+Technical Stack:
+Arduino MEGA: Controls motor mechanisms and reads sensor data.
+ESP32 Devkit: Facilitates communication with the Blynk IoT cloud platform.
+Blynk IoT Cloud: Enables real-time data transfer and remote monitoring.
+Motor Drivers: Control the precise opening and closing of shed mechanisms.
+DC Motors: Actuate the shed mechanisms based on environmental conditions.
+Temperature & Rain Drop Sensor: Sense environmental parameters for decision-making.
+C++: Programming language used for code implementation.
+Functionality:
+Arduino Mega Code:
+Controls motor mechanisms and reads sensor data.
+Responds to changes in temperature and rain levels to protect crops.
 
-## Description:
-Designed and implemented an Arduino Mega-based automation system to control shed mechanisms, 
-utilizing DC motors for precise opening and closing actions in response to environmental triggers like high temperature and Raindrops.
-Established seamless communication with the Blynk IoT cloud platform using ESP32 DevKit, 
-facilitating real-time data transfer and remote monitoring of environmental conditions. 
-This integration enables timely alerts and remote management of shed operations, enhancing crop protection and management efficiency.
+ESP32 IoT Code:
+Facilitates communication between Arduino Mega and Blynk IoT cloud platform.
+Sends sensor data to Blynk for remote monitoring and control.
+
+Usage:
+Upload Arduino Mega code to the Arduino Mega microcontroller.
+Upload ESP32 IoT code to the ESP32 Devkit microcontroller.
+Configure Blynk IoT cloud platform to receive sensor data and control shed mechanisms remotely.
+Monitor and manage shed operations through the Blynk app or platform.
+
+Contributors:
+Mohammed Hussain Nawaz: https://github.com/mrmhnawaz
