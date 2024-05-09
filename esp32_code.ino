@@ -1,6 +1,10 @@
 //The code for The project
-//This is IoT code to recieve the sensor values from the Arduino Mega to esp32 using uart communication protocol and then sends the value to cloud platform such as Blynk
-
+//This code is intended for the ESP32 microcontroller.
+It facilitates communication between the Arduino Mega and a cloud platform, such as Blynk, via the UART communication protocol.
+The ESP32 receives sensor data from the Arduino Mega over UART.
+It then sends this sensor data to the Blynk IoT cloud platform for remote monitoring and control.
+This code enables real-time monitoring of environmental conditions and shed operations through the Blynk app or platform.
+It ensures that users can remotely manage and receive alerts about their shed's status, enhancing crop protection and management efficiency.
 #define BLYNK_TEMPLATE_ID "TMPL3LlZLGXs5"
 #define BLYNK_TEMPLATE_NAME "CROP PROTECTION OVER SUN AND RAIN"
 #define BLYNK_AUTH_TOKEN "yg_qQMfC1fYdetsLd_1qChYU683-lGUd"
